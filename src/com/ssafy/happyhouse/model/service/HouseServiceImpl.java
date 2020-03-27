@@ -28,11 +28,6 @@ public class HouseServiceImpl implements HouseService{
 	 * @return		아파트 식별 번호에 해당하는 아파트 거래 정보를 찾아서 리턴한다, 없으면 null이 리턴됨
 	 */
 	public HouseDeal search(int no) {
-
-
-		// 구현 하세요.
-		
-		
-		
+		return dao.search(no);
 	}
 }
